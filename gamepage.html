@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Guess the Word</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="gamepage.css">
+    </head>
+    <body>
+        <h4 id="player_one_name"></h4> <span id="player_one_score"></span>
+        <br>
+        <h4 id="player_two_name"></h4> <span id="player_two_score"></span>
+        <br>
+        <div class="container">
+            <center>
+                <h1>Guess the Word</h1>
+                <br>
+                <h2 id="player_question"></h2>
+                <h2 id="player_answer"></h2>
+                <div id="output" class="col-lg-6"></div>
+                <br>
+                <label style="color: whitesmoke;">Send Your Word <b class="text-danger">Put words which are less then 9 letters.</b></label>
+                <input type="text" class="form-control" id="word" placeholder="Write Your Word!!">
+                <br>
+                <button onclick="send()" class="btn btn-success" style="width: 30%;">SEND</button>
+            </center>
+        </div>
+        <script src="gamepage.js"></script>
+    </body>
+</html>

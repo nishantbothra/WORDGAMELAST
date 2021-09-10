@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap);
+body {
+    background-color: rgb(31, 68, 98);
+}
+h1 {
+    color: bisque;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+}
+
+#player_one_name, #player_two_name {
+    display: inline-block;
+    margin-left: 20px;
+    color: aliceblue;
+}
+#player_one_score, #player_two_score {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+#output {
+    background-color: white;
+    border-top: 8px solid #aa4465 ;
+    border-radius: 10px;
+    float: none;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
